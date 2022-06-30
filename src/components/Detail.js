@@ -49,7 +49,7 @@ const Detail = ({ exerciseDetail }) => {
           is on of the best exercises to target your {target}.It will help you
           improve your mood and gain energy.
         </Typography>
-        {extraDetail.map((item) => (
+        {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
             <Button
               sx={{
